@@ -9,6 +9,6 @@ actualiza automáticamente.
 
 El tamaño de cada buffer es configurable y se puede definir a la hora de llamar al driver mediante los parámetros size0, size1 y size2.
 
-Se puede escribir a un buffer usando echo, leer con cat, y se puede desplazar el contenido de cualquier buffer a disco duro con un simple pipeline empleando cat.
+Se puede escribir a un buffer usando echo, leer con cat, y se puede desplazar el contenido de cualquier buffer a disco duro con un simple pipeline empleando echo.
 
 El tamaño por defecto de los buffer es 255 bytes, que se corresponde a su vez con el máximo. Intentar poner mayor tamaño para los buffer (o un tamaño negativo) causará un error.
